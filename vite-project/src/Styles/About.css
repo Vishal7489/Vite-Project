@@ -95,9 +95,6 @@ flex-wrap:wrap;
 }
 }
 
-
-
-
 .About5{
 height:150px;
 width:510px;
@@ -214,9 +211,6 @@ padding-left:9px;
 }
 }
 
-
-
-
 .sign_in{
     background-color:#06f; 
     height:43px;
@@ -233,7 +227,8 @@ padding-left:9px;
   width:85px;
   position:relative;
   right:80px;
-  bottom:35px;
+  top:auto;
+  top:15px;
   
   }
 }

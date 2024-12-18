@@ -66,17 +66,19 @@ right:30px;
 }
 .Header1{
 flex-wrap:wrap;
-height:2000px;
 height:auto;
 display:block;
+height:1100px;
 }
 .Header4{
 position:relative;
 bottom:40px;
-
+right:10px;
 font-size:19px;
 width:340px;
 top:auto;
+font-weight:500;
+width:330px;
 }
 }
 
