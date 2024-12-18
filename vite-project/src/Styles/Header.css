@@ -57,13 +57,12 @@ width:730px;
 @media(max-width:430px){
 .Header3{
 width:320px;
-font-size:33px;
+font-size:32px;
 font-weight:600;
 position:relative;
-bottom:50px;
+bottom:85px;
 top:auto;
 right:30px;
-border:2px solid red;
 }
 .Header1{
 flex-wrap:wrap;
@@ -73,10 +72,11 @@ display:block;
 }
 .Header4{
 position:relative;
-bottom:95px;
-right:8px;
-font-size:21px;
+bottom:40px;
+
+font-size:19px;
 width:340px;
+top:auto;
 }
 }
 
