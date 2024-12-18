@@ -1,0 +1,136 @@
+
+.Nav-image{
+height:41px;
+margin-top:10px;
+margin-left:10px;
+}
+@media(max-width:430px){
+.Nav-image{
+height:32px;
+}
+}
+
+.Navbar_Main{
+  background-color:#090821;
+  height:60px;
+  position:sticky;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+}
+@media(max-width:430px){
+.Navbar_Main{
+height:55px;
+}
+}
+.Navbar_Heading{
+font-size:29px;
+font-weight:400;
+color:rgb(192, 192, 192);
+margin-block-start:0;
+margin-block-end: 0;
+margin-top:15px;
+margin-left:5px;
+}
+@media(max-width:430px){
+.Navbar_Heading{
+width:150px;
+font-size:21px;
+font-weight:400;
+margin-block-start:0;
+margin-block-end: 0;
+position:relative;
+top:14px;
+}
+}
+
+.NavbarHeading{
+display:flex;
+}
+@media(max-width:430px){
+.NavbarHeading1{
+display:flex;
+align-items:center;
+position:relative;
+right:30px;
+}
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Navbar{
+display:flex;
+justify-content:space-between;
+z-index:1;
+}
+.Navbar1{
+display:flex;
+}
+  .Button1{
+    background-color:#06f; 
+    height:40px;
+    width:77px;
+    color:white;
+    border-radius:10px; 
+    font-size:14px;
+    border:none;
+    position:relative;
+    right:45px;
+    }
+  @media(max-width:430px){
+  .Button1{
+    font-size:15px;
+    width:70px;
+    height:33px;
+    bottom:5px;
+    position:relative;
+    left:20px;
+    top:5px;
+  }
+  }
+
+  .Button{
+  background-color:#06f; 
+  height:40px;
+  width:77px;
+  color:white;
+  border-radius:10px; 
+  border:none;
+  box-sizing:border-box;
+  font-size:14px;
+  margin-right:65px;
+  margin-top:10px;
+  }
+@media(max-width:430px){
+.Button{
+  font-size:15px;
+  width:70px;
+  height:33px;
+  bottom:5px;
+  position:relative;
+  left:70px;
+   top:0px;
+}
+}
+
+
+    .NavbarButton{
+    position:relative;
+    }
+    @media(max-width:430px){
+      
+    }
+   html,body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+   }

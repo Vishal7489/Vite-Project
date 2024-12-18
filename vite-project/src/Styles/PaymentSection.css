@@ -1,0 +1,439 @@
+.Payment{
+height:420px;
+color:black;
+background-color:#1d232a;
+padding-top:20px;
+overflow-y:hidden;
+}
+@media(max-width:430px){
+.Payment{
+height:1100px;
+}
+}
+
+.Payment2{
+width:650px;
+height:400px;
+margin-left:170px;
+}
+
+.Payment3{
+width:400px;
+height:400px;
+padding-top:23px;
+}
+
+.Payment1{
+display:flex;
+}
+@media(max-width:480px){
+.Payment1{
+flex-wrap:wrap;
+}
+}
+.Form{
+display:flex;
+}
+@media(max-width:480px){
+.Form{
+flex-wrap:wrap;
+}
+}
+.Checkout_heading{
+color: #ccc;
+font-size:33px;
+font-weight:600;
+margin-top:0;
+margin-bottom:0;
+margin:0;
+}
+@media(max-width:430px){
+.Checkout_heading{
+position:relative;
+right:100px;
+}
+}
+
+.Payment_para{
+color:#3abff8;
+font-size:30px;
+font-weight:500;
+}
+@media(max-width:430px){
+.Payment_para{
+position:relative;
+right:98px;
+}
+}
+
+
+
+.PaymentEmail{
+color:rgb(172 173 177);
+font-size:20px;
+font-weight:600;  
+position:relative;
+top:33px;
+}
+@media(max-width:430px){
+.PaymentEmail{
+position:relative;
+right:103px;
+top:65px;
+}
+}
+
+.PaymentContact{
+    color:rgb(172 173 177);
+    font-size:20px;
+    font-weight:600; 
+    margin-left:40px;
+    position:relative;
+    top:33px;
+  }
+@media(max-width:430px){
+.PaymentContact{
+position:relative;
+top:83px;
+right:145px;
+}
+}
+
+  .PaymentFirst{
+    color:rgb(172 173 177);
+    font-size:20px;
+    font-weight:600; 
+    position:relative;
+    top:20px;
+  }
+@media(max-width:430px){
+.PaymentFirst{
+position:relative;
+right:100px;
+font-size:20px;
+}
+}
+
+
+
+  .PaymentLast{
+  color:rgb(172 173 177);
+  font-size:20px;
+  font-weight:600; 
+  position:relative;
+  top:24px;
+  left:40px;
+  }
+ @media(max-width:430px){
+.PaymentLast{
+position:relative;
+left:-100px;
+top:45px;
+}
+}
+    
+
+.Payment_input2{
+color:rgb(172 173 177);
+font-size:20px;
+font-weight:600;
+position:relative;
+top:60px;
+}
+@media(max-width:430px){
+.Payment_input2{
+position:relative;
+right:105px;
+top:100px;
+}
+}
+.Apply_button{
+background-color:#36d399;
+height:44px;
+border-radius:12px;
+border:none;
+width:300px;
+position:relative;
+top:90px;
+left:25px;
+font-size:15px;
+}
+@media(max-width:430px){
+.Apply_button{
+position:relative;
+top:150px;
+left:-110px;
+width:250px;
+}
+}
+
+
+.Course_Amount{
+display:flex;
+}
+
+.Payment4{
+width:330px;
+height:320px;
+color:rgb(172 173 177);
+border-radius:15px;
+background-color:#2a323c;
+border:none;
+position:relative;
+bottom:7px;
+}
+@media(max-width:430px){
+.Payment4{
+width:235px;
+height:230px;
+position:relative;
+left:65px;
+top:280px;
+
+}
+}
+
+.Payment_Detail{
+font-size:25px;
+text-align:center;
+position:relative;
+top:19px;
+right:7px;
+color:#9eacbb;
+}
+@media(max-width:430px){
+.Payment_Detail{
+position:relative;
+font-size:26px;
+bottom:-8px;
+}
+}
+
+
+
+
+
+
+.Payment_Heading1{
+font-size:20px;
+position:relative;
+top:39px;
+left:29px;
+margin-bottom:10px;
+}
+.Payment_Heading2{
+font-size:20px;
+position:relative;
+left:29px;
+top:45px;
+margin-bottom:10px;
+}
+.Payment_Heading3{
+font-size:20px;
+position:relative;
+left:27px;
+top:50px;
+margin-bottom:10px;
+}
+.Payment_Heading4{
+font-size:20px;
+position:relative;
+left:30px;
+top:55px;
+margin-bottom:10px;
+}
+
+
+
+
+@media(max-width:430px){
+.Payment_Heading{
+position:relative;
+left:10px;
+font-size:21px;
+bottom: 1px;
+}
+}
+.Payment_Amount1{
+position:relative;
+left:65px;
+top:40px;
+font-size:23px;
+}
+@media(max-width:430px){
+.Payment_Amount1{
+font-size:21px;
+position:relative;
+left:34px;
+}
+}
+.Payment_Amount2{
+position:relative;
+left:48px;
+top:45px;
+font-size:23px;
+}
+@media(max-width:430px){
+.Payment_Amount2{
+position:relative;
+left:15px;
+font-size:20px;
+}
+}
+
+.Payment_Amount3{
+position:relative;
+left:90px;
+font-size:23px;
+top:50px;
+}
+@media(max-width:430px){
+  .Payment_Amount3{
+  position:relative;
+  left:53px;
+  font-size:20px;
+  }
+  }
+
+.Payment_Amount4{
+position:relative;
+font-size:23px;
+position:relative;
+top:55px;
+left:89px;
+}
+@media(max-width:430px){
+  .Payment_Amount4{
+  position:relative;
+  left:55px;
+  font-size:20px;
+  }
+  }
+.Buy_Button{
+border:2px solid black;
+height:40px;
+width:270px;
+background-color:#10426e;
+color:white;
+border-radius:10px;
+border:none;
+position:relative;
+top:80px;
+left:23px;
+}
+@media(max-width:430px){
+.Buy_Button{
+width:238px;
+position:relative;
+left:-0px;
+top:40px;
+}
+}
+
+
+
+
+
+.star{
+color:red;
+}
+.PaymentDetails{
+background-color:transparent;
+color:white;
+border:1px solid #ccc;
+height:40px;
+width:240px;
+border-radius:5px;
+position:relative;
+top:40px;
+}
+@media(max-width:430px){
+.PaymentDetails{
+position:relative;
+right:102px;
+top:70px;
+}
+}
+
+
+
+
+
+
+
+.PaymentDetails1{
+background-color:transparent;
+color:white;
+border:1px solid #ccc;
+height:40px;
+width:240px;
+border-radius:5px;
+margin-left:40px;
+position:relative;
+top:26px;
+}
+@media(max-width:430px){
+.PaymentDetails1{
+position:relative;
+right:142px;
+top:50px;
+}
+}
+
+
+
+.PaymentDetails3{
+background-color:transparent;
+color:white;
+border:1px solid #ccc;
+height:40px;
+width:240px;
+border-radius:5px;
+position:relative;
+top:25px;
+}
+@media(max-width:430px){
+.PaymentDetails3{
+position:relative;
+right:100px;
+}
+}
+
+
+
+.PaymentDetails_Contact{
+background-color:transparent;
+color:white;
+border:1px solid #ccc;
+height:40px;
+width:240px;
+border-radius:5px;
+position:relative;
+top:40px;
+margin-left:40px;
+}
+@media(max-width:430px){
+.PaymentDetails_Contact{
+position:relative;
+right:144px;
+top:85px;
+}
+}
+
+.PaymentDetails_Coupon{
+background-color:transparent;
+color:white;
+border:1px solid #ccc;
+height:40px;
+width:240px;
+border-radius:5px;
+position:relative;
+top:65px;;
+}   
+@media(max-width:430px){
+.PaymentDetails_Coupon{
+position:relative;
+right:106px;
+top:105px;
+}
+}

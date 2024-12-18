@@ -1,0 +1,113 @@
+{
+    "aboutPython": {
+      "coursePoints": [
+        "Wants to learn the fundamentals of data analytics",
+        "Wants to develop or enhance their data analysis skills, from beginner to intermediate levels",
+        "Is looking to master data analysis techniques from basic to advanced",
+        "Wants to start their journey into business analytics or data science"
+      ],
+      "requirements": [
+        "A working laptop/desktop with 4 GB RAM",
+        "A working Internet connection",
+        "Microsoft Excel installed on your machine"
+      ],
+      "curriculumItems": [
+        "Introduction to Data Science",
+        "Introduction to Machine Learning",
+        "Machine Learning",
+        "Conditional Statements",
+        "Data Structure",
+        "String Manipulation",
+        "Functions",
+        "Handling text files in Python",
+        "Reading Different Data Files in Python",
+        "Pandas",
+        "Numpy"
+      ],
+     "FullStackDetail":[
+  "1 Introduction to Full Stack Development",
+  "2 HTML & CSS Basics",
+  "3 JavaScript Fundamentals – Interactive Webpage Project",
+  "4 Advanced JavaScript (ES6+ Concepts)",
+  "5 Front-end Frameworks – React Basics",
+  "6 Styling Libraries and Responsive Design – Portfolio Project",
+  "7 Joins",
+  "8 Node.js & Express.js",
+  "9 Database Fundamentals (SQL & NoSQL)",
+  "10 Working with MongoDB – User Profile Project",
+  "11 User Authentication and Authorization"
+     ],
+
+
+
+      "BulletPoints":[
+       "✅ In depth High Quality Videos",
+       "✅ Project Based Learning",
+       "✅ Assignments/Projects",
+       "✅ Premium community of Engineers",
+       "✅ Course Certificate"
+      ],
+      "Heading":[
+        "Who is the Data Analytics Fundamentals Course for?",
+        "This course is for anyone who:",
+        "What do you need to get started with the Fundamental of Data Analytics",
+        "Here’s what you’ll need:",
+        "Course curriculum"  
+      ],
+     
+      "HeadingItems":[
+        " 1  Module 1 Basics of Data Analytics",
+        " 2  Module 2 Packages and Libraries",
+        " 3  Module 3 SQL",
+        " 4  Module 4 Power Bi",
+        " 5  Module 5 Advance Microsoft Excel"
+      ],
+    
+      "HeadingTitle":[
+        "Data Analytics",
+        "Python for Data Science",
+        "FullStack Developer"
+      ],
+      "courseimage":[
+        "https://tdsacad.com/images/data_analytics.jpg",
+        "https://tdsacad.com/images/Python.jpg",
+        "https://tdsacad.com/images/SQL.jpg"
+
+      ],
+      "Price":[
+        " ₹ 4500 + GST ₹ 6000",
+        "₹ 9000 + GST ₹ 12000",
+        "₹ 5500 + GST ₹ 8000"
+      ],
+      "AboutHeading":[
+        "Harnessing AI for Tailored Educational Experience",
+        "Ace Your Interview Preparation",
+        "Experienced instructors and mentors",
+        "Access 1000+ Mock Interviews",
+        "Lifetime Placement Assistance Guaranteed",
+        "Industry-oriented curriculum"
+      ],
+    "AboutPara":[
+      "AI-based IDE with real-time engineered to teach you only what the industry demands.",
+      "An updated curriculum engineered to teach you only what the industry demands.",
+      "Get company-specific interview preparation help, from the likes of Google, Swiggy, Microsoft.",
+      "Courses taught only by people who have already aced it! 1000+tech professionals to guide you",
+      "Practice your skills with unlimited number of mock interviews you can schedule yourself",
+      "An updated curriculum engineered to teach you only what the industry demands."
+    ],
+    "AboutImg":[
+      "https://analytics-vidhya.vercel.app/images/artificialIntelligence.jpg",
+      "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=interview.jpg",
+      "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=placement.jpg",
+      "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=mockQuestion.jpg",
+      "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=placement.jpg",
+      "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=curriculum.jpg"
+
+    ],
+    "ServicePara":[
+      "Unlock the power of data with our comprehensive Data Analytics designed to equip you with essential skills for extracting insights and making informed decisions."
+    ]
+
+    }
+  }
+  

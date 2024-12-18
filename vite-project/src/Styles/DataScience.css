@@ -1,0 +1,126 @@
+.DataImage{
+height:400px;
+width:620px;
+position:relative;
+left:200px;
+bottom:20px;
+border-radius:15px;
+}
+.BulletPoints{
+float:left;
+}
+.DataMain{
+  background-color: #1d232a;
+}
+.DataScience{
+height:1500px;
+}
+#Data{
+color:white;
+font-size:32px;
+position:relative;
+top:40px;
+left:100px;
+}
+#BullletPoints{
+color:white;
+}
+#Data1{
+color:white;
+position:relative;
+top:65px;
+left:105px;
+font-size:22px;
+font-weight:300;
+margin-bottom:10px;
+}
+.DataPrice{
+color:rgb(161, 156, 156);
+position:relative;
+top:80px;
+left:120px;
+font-size:23px;
+}
+#Enroll{
+height:45px;
+position:relative;
+top:110px;
+left:115px;
+width:420px;
+background-color:#225d91;
+border-radius:12px;
+border:none;
+}
+#DataHeadingCourse{
+  width:800px;
+  font-size:38px;
+  font-weight:300;
+  position:relative;
+  left:280px;
+  top:70px;
+}
+#DataHeadingCourse1{
+position:relative;
+top:100px;
+left:280px;
+font-size:20px;
+font-weight:300;
+}
+.DataHeadingCourse2{
+margin-bottom:3px;
+font-size:18px;
+position:relative;
+top:100px;
+left:340px;
+}
+#DataHeadingCourse3{
+position:relative;
+top:130px;
+left:280px;
+width:730px;
+font-weight:300;
+font-size:37px;
+
+
+}
+#DataHeadingCourse4{
+position:relative;
+top:160px;
+left:280px;
+font-weight:300;
+font-size:20px;
+  }
+#DataHeadingCourse5{
+position:relative;
+top:160px;
+left:350px;
+font-weight:300;
+font-size:18px;
+}  
+#DataHeadingCourse6{
+position:relative;
+top:200px;
+left:490px;
+font-weight:300;
+font-size:35px;
+}  
+#DataHeadingCourse7{
+  position:relative;
+  top:210px;
+  left:550px;
+  font-weight:300;
+  font-size:25px;
+}
+#DataHeadingCourse8{
+  position:relative;
+  top:210px;
+  left:280px;
+  font-weight:400;
+  font-size:17px;
+  border:2px solid black;
+  width:700px;
+  height:30px;
+  margin-bottom:5px;
+  border-radius:7px;
+  padding:10px 0px 0px 20px;
+}
