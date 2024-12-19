@@ -50,7 +50,7 @@ return (
   <h2 id="PythonHeadingCourse7">{Data.HeadingTitle[1]}</h2>
   <ol>
   {Data.curriculumItems.map((item,index)=>(
-    <h2 key={index}  id="DataHeadingCourse8">{item}</h2>
+    <h2 key={index}  id="PythonHeadingCourse8">{item}</h2>
   ))}
   </ol>
 </div>

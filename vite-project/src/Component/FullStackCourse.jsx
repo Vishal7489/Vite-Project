@@ -50,7 +50,7 @@ return (
   <h2 id="FullStackHeadingCourse7">{Data.HeadingTitle[2]}</h2>
   <ol>
   {Data.FullStackDetail.map((item,index)=>(
-    <h2 key={index}  id="DataHeadingCourse8">{item}</h2>
+    <h2 key={index}  id="FullStackHeadingCourse8">{item}</h2>
   ))}
   </ol>
 </div>

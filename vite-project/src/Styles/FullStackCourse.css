@@ -1,6 +1,11 @@
 .FullStack{
 height:1800px;
 }
+@media(max-width:430px){
+.FullStack{
+height:3000px;
+}
+}
 #FullStackHeadingCourse7{
     position:relative;
     top:210px;
@@ -8,3 +13,34 @@ height:1800px;
     font-weight:300;
     font-size:25px;
   }
+@media(max-width:430px){
+#FullStackHeadingCourse7{
+  left:auto;
+  left:100px;
+}
+}
+
+
+
+
+  #FullStackHeadingCourse8{
+    position:relative;
+    top:210px;
+    left:280px;
+    font-weight:400;
+    font-size:17px;
+    border:2px solid black;
+    width:700px;
+    height:30px;
+    margin-bottom:5px;
+    border-radius:7px;
+    padding:10px 0px 0px 20px;
+  }
+  @media(max-width:430px){
+  #FullStackHeadingCourse8{
+    left:0px;
+    width:250px;
+    height:59px;
+    left:40px;
+    }
+  }  

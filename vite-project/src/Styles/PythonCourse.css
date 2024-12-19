@@ -1,10 +1,36 @@
 .Python{
 height:1750px;
 }
+@media(max-width:430px){
+.Python{
+height:2800px;
+}
+}
 #PythonHeadingCourse7{
     position:relative;
     top:210px;
     left:500px;
     font-weight:300;
     font-size:25px;
+  }
+  #PythonHeadingCourse8{
+    position:relative;
+    top:210px;
+    left:280px;
+    font-weight:400;
+    font-size:17px;
+    border:2px solid black;
+    width:700px;
+    height:30px;
+    margin-bottom:5px;
+    border-radius:7px;
+    padding:10px 0px 0px 20px;
+  }
+  @media(max-width:430px){
+  #PythonHeadingCourse8{
+    left:0px;
+    width:180px;
+    height:40px;
+    left:70px;
+    }
   }
