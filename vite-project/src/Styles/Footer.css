@@ -22,7 +22,9 @@ font-weight:600;
 }
 @media(max-width:430px){
 .Footer_Heading{
-font-size:20px;
+position:relative;
+left:30px;
+color:white;
 }
 }
 .Footer1{
@@ -47,9 +49,6 @@ color:white;
 font-size:24px;
 
 }
-}
-.Footer_Heading{
-color:white;
 }
 .Footer2{
 height:33px;
