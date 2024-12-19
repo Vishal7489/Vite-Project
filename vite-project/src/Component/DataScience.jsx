@@ -14,7 +14,7 @@ return (
 </div>
 <div className="BulletPoints"    >
 {Data.BulletPoints.map((item,index)=>(
-<h2  id="Data1"   key={index}>{item}</h2>
+<h2  id="Data1" key={index}>{item}</h2>
 ))}
 <div>
   <h2 className="DataPrice">{Data.Price[0]}</h2>

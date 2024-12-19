@@ -7,6 +7,11 @@ box-sizing:border-box;
 @media(max-width:430px){
 .Footer{
 height:120px;
+border:2px solid green;
+}
+body,html{
+height:100vh;
+margin-bottom:0;
 }
 }
 .Footer_Heading{
@@ -91,5 +96,7 @@ height:60px;
 .FooterPoints{
 font-size:10px;
 list-style:initial;
+margin-top:0;
+
 }
 }
