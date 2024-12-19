@@ -7,7 +7,7 @@ overflow-y:hidden;
 }
 @media(max-width:430px){
 .Payment{
-height:1100px;
+height:1050px;
 }
 }
 
@@ -115,11 +115,10 @@ font-size:20px;
 }
 
 
-
-  .PaymentLast{
-  color:rgb(172 173 177);
-  font-size:20px;
-  font-weight:600; 
+.PaymentLast{
+color:rgb(172 173 177);
+font-size:20px;
+font-weight:600; 
   position:relative;
   top:24px;
   left:40px;
@@ -184,12 +183,11 @@ bottom:7px;
 }
 @media(max-width:430px){
 .Payment4{
-width:235px;
-height:230px;
+width:280px;
+height:300px;
 position:relative;
-left:65px;
-top:280px;
-
+left:55px;
+top:260px;
 }
 }
 
@@ -206,6 +204,7 @@ color:#9eacbb;
 position:relative;
 font-size:26px;
 bottom:-8px;
+right:auto;
 }
 }
 
@@ -252,6 +251,7 @@ position:relative;
 left:10px;
 font-size:21px;
 bottom: 1px;
+border:2px solid green;
 }
 }
 .Payment_Amount1{
@@ -260,24 +260,20 @@ left:65px;
 top:40px;
 font-size:23px;
 }
-@media(max-width:430px){
-.Payment_Amount1{
-font-size:21px;
-position:relative;
-left:34px;
-}
-}
+
 .Payment_Amount2{
 position:relative;
-left:48px;
+left:60px;
 top:45px;
 font-size:23px;
 }
 @media(max-width:430px){
 .Payment_Amount2{
 position:relative;
-left:15px;
-font-size:20px;
+left:auto;
+left:48px;
+font-size:21px;
+font-weight:500;
 }
 }
 
@@ -288,12 +284,13 @@ font-size:23px;
 top:50px;
 }
 @media(max-width:430px){
-  .Payment_Amount3{
-  position:relative;
-  left:53px;
-  font-size:20px;
-  }
-  }
+.Payment_Amount3{
+position:relative;
+left:auto;
+left:85px;
+font-size:20px;
+}
+}
 
 .Payment_Amount4{
 position:relative;
@@ -303,12 +300,13 @@ top:55px;
 left:89px;
 }
 @media(max-width:430px){
-  .Payment_Amount4{
-  position:relative;
-  left:55px;
-  font-size:20px;
-  }
-  }
+.Payment_Amount4{
+position:relative;
+left:auto;
+left:90px;
+font-size:20px;
+}
+}
 .Buy_Button{
 border:2px solid black;
 height:40px;
@@ -325,14 +323,11 @@ left:23px;
 .Buy_Button{
 width:238px;
 position:relative;
-left:-0px;
-top:40px;
+left:auto;
+left:10px;
+top:70px;
 }
 }
-
-
-
-
 
 .star{
 color:red;
