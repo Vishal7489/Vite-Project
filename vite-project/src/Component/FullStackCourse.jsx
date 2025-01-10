@@ -14,7 +14,7 @@ return (
 </div>
 <div className="BulletPoints"    >
 {Data.BulletPoints.map((item,index)=>(
-<h2  id="Data1"   key={index}>{item}</h2>
+<h2  id="Data1" key={index}>{item}</h2>
 ))}
 <div>
   <h2 className="DataPrice">{Data.Price[2]}</h2>
@@ -42,7 +42,7 @@ return (
 <h2 id="DataHeadingCourse4">{Data.Heading[3]}</h2>
 <ul>
 {Data.requirements.map((item,index)=>(
-<li key={index}  id="DataHeadingCourse5" >{item}</li>
+<li key={index}  id="DataHeadingCourse5">{item}</li>
 ))}
 </ul>
 <div>

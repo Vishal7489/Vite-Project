@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/Navbar.css"
-import img1 from "../assests/image1.png"
 import {Link} from "react-router-dom"
+import img1 from "../assests/image1.png"
 
 
 const Navbar = () => {
