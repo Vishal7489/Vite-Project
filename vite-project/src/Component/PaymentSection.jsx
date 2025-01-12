@@ -1,14 +1,26 @@
-import React,{useEffect} from 'react'
+import React,{useState}  from 'react'
 import "../Styles/PaymentSection.css"
 
 
 const PaymentSection = ({Data}) => {
 
-  useEffect(() => {
-    // Scroll to the middle of the page when it loads
-    const scrollableDiv = document.documentElement || document.body;
-    scrollableDiv.scrollTop = scrollableDiv.scrollHeight / 1; // Scroll to the middle
-  }, []);
+const [firstname,setFirstName]=useState();
+const [lastname,setLastName]=useState();
+const [email,setEmail]=useState();
+const [contact,setContact]=useState();
+const [coupon,setCoupon]=useState();
+
+
+const handleSubmit=()=>{
+if(firstname && lastname && email && contact && coupon){
+ alert("Coupon Successfully Apply");
+}
+else{
+  alert("All fields are mandatory"); 
+}
+}
+
+
 
 
 
@@ -21,49 +33,49 @@ return (
     <br/>
     <span className="Payment_para">{Data.HeadingTitle[0]}</span> 
 
-    <form>
+    <form  onSubmit={handleSubmit}>
     <div className="Form">
     <div>
      <label className="PaymentFirst">First Name <span className="star">*</span> </label>
      <br/>
-     <input type="text" required placeholder=""  className="PaymentDetails3"    />   
+     <input type="text" required placeholder=""  className="PaymentDetails3"  onChange={(event)=>setFirstName(event.target.value)}  />   
      </div>
      <div>
      <label className="PaymentLast">Last Name <span className="star">*</span> </label>
      <br/>
-     <input type="text" required placeholder=""  className="PaymentDetails1"/>   
+     <input type="text" required placeholder=""  className="PaymentDetails1" onChange={(event)=>setLastName(event.target.value)}    />   
      </div>
      </div>
     
 
 
-    <form>
+    
     <div className="Form">
     <div>
      <label className="PaymentEmail">Email <span className="star">*</span> </label>
      <br/>
-     <input type="text" required placeholder=""  className="PaymentDetails" />   
+     <input type="text" required placeholder=""  className="PaymentDetails"  onChange={(event)=>setEmail(event.target.value)}      />   
      </div>
      <div>
      <label className="PaymentContact"> Contact Number <span className="star">*</span> </label>
      <br/>
-     <input type="text" required placeholder=""   className="PaymentDetails_Contact"   />   
+     <input type="text" required placeholder=""   className="PaymentDetails_Contact"   onChange={(event)=>setContact(event.target.value)}    />   
      </div>
      </div>
-    </form>
+    
 
-    <form>
+    
     <div className="Form">
     <div>
      <label className="Payment_input2">Coupon <span className="star">*</span> </label>
      <br/>
-     <input type="text" required placeholder=""  className="PaymentDetails_Coupon"/>   
+     <input type="text" required placeholder=""  className="PaymentDetails_Coupon" onChange={(event)=>setCoupon(event.target.value)}  />   
      </div>
      <div>
      <button className="Apply_button">Apply</button>  
      </div>
      </div>
-    </form>
+    
 
 </form>
     </div>

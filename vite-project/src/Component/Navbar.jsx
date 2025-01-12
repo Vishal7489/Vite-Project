@@ -20,7 +20,9 @@ const Navbar = () => {
   <Link to="/LoginSection">
   <button className="Button" >Login</button>
    </Link>
+   <Link to="/SignIn">
    <button className="Button1">Sign-up</button>
+   </Link>
    </div>
   </div>
   </div>

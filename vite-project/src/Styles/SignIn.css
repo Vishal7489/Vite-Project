@@ -1,0 +1,157 @@
+.noData{
+color:red;
+font-size:15px;
+position:relative;
+top:10px;
+left:35px;
+}
+.noData1{
+color:red;
+font-size:15px;
+position:relative;
+left:35px;
+bottom:7px;
+}
+.noData2{
+color:red;
+font-size:15px;
+position:relative;
+left:35px;
+bottom:30px;
+}
+.noData3{
+color:red;
+font-size:15px;
+position:relative;
+left:35px;
+bottom:48px;
+}
+.data1{
+color:red;
+position:relative;
+left:35px;
+bottom:5px;
+}
+.data2{
+    color:red;
+    position:relative;
+    left:35px;
+    bottom:30px; 
+}
+.data3{
+    color:red;
+    position:relative;
+    left:35px;
+    bottom:40px; 
+}
+
+.SignInButton{
+background-color:rgb(55, 214, 55);
+height:40px;
+border-radius:10px;
+width:70px;
+position:relative;
+bottom:40px;
+left:30px;
+border:none;
+
+}
+
+.SignIn{
+background-color:rgb(159, 159, 192);
+height:550px;
+}
+.data{
+margin-inline-start:0px;
+margin-inline-start:0px;
+}
+.SignInHeading{
+margin-block-start:0px;
+margin-block-end:0px;
+color:black;
+font-weight:700;
+font-size:22px;
+position:relative;
+left:150px;
+top:25px;
+}
+.SignInMain{
+width:400px;
+height:530px;
+background-color:#d5d5d5;
+border-radius:15px;
+position:relative;
+left:480px;
+top:10px;
+}
+.SignInName{
+position:relative;
+top:30px;
+left:35px;
+width:200px;
+font-weight:600;
+}
+.SignInEmail{
+position:relative;
+left:35px;
+top:10px;
+width:200px;
+font-weight:600;
+}
+.SignInPassword{
+    position:relative;
+    left:35px;
+    bottom:10px;
+    width:200px;
+    font-weight:600;
+    }
+.SignInConfirm{
+position:relative;
+left:35px;
+bottom:33px;
+width:200px;
+font-weight:600;
+}
+
+
+
+
+.InputName{
+width:300px;
+position:relative;
+left:33px;
+top:20px;
+border:none;
+height:35px;
+border-radius:7px;
+font-size:15px;
+}
+.InputEmail{
+width:300px;
+position:relative;
+left:33px;
+border:none;
+height:35px;
+border-radius:7px;
+font-size:15px;
+}
+.InputPassword{
+    width:300px;
+    position:relative;
+    left:33px;
+    bottom:20px;
+    border:none;
+    height:35px;
+    border-radius:7px;
+    font-size:15px;
+    }
+    .InputConfirm{
+        width:300px;
+        position:relative;
+        left:33px;
+        bottom:40px;
+        border:none;
+        height:35px;
+        border-radius:7px;
+        font-size:15px;
+        }   

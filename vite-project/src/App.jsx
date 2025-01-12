@@ -10,6 +10,7 @@ import LoginSection from "./Component/LoginSection.jsx"
 import Home from "./pages/Home.jsx"
 import './App.css'
 import data from "./data/data.json"
+import SignIn from "./Component/SignIn.jsx"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <Route path="/FullStackCourse" element={<FullStackCourse Data={data.aboutPython} />} />
     <Route path="/PaymentSection" element={<PaymentSection Data={data.aboutPython} />} />
     <Route path="/LoginSection" element={<LoginSection />} />
+    <Route path="/SignIn"  element={<SignIn/>} />
     </Routes>
     </div>
     <Footer />
