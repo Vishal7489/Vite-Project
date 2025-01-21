@@ -1,0 +1,75 @@
+{
+    "DataScience": [
+      {
+        "name": "Data Analytics",
+        "name1":"Python for Data Science",
+        "name2":"FullStack Developer",
+        "name3":"Course Curriculam",
+        "details": [
+          "✅ In-depth High-Quality Videos",
+          "✅ Project-Based Learning",
+          "✅ Assignments/Projects",
+          "✅ Premium Community of Engineers",
+          "✅ Course Certificate"
+        ],
+        "price": "₹ 4500 + GST ₹ 6000",
+        "price1":"₹ 9000 + GST ₹ 12000",
+        "price2":"₹ 5500 + GST ₹ 8000",
+        "ImgUrl":"https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=data_analytics.jpg",
+        "ImgUrl1":"https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=Python.jpg",
+        "ImgUrl2":"https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=SQL.jpg",
+        "DataHeading":"Who is the Data Analytics Fundamentals Course for?",
+        "DataHeading1":"This course is for anyone who",
+        "DataHeading2":"Here’s what you’ll need:",
+        "DataPoints":[
+           "Wants to learn the fundamentals of data analytics",
+           "Wants to develop or enhance their data analysis skills, from beginner to intermediate levels",
+           "Is looking to master data analysis techniques from basic to advanced",
+           "Wants to start their journey into business analytics or data science" 
+        ],
+        "DataPoints1":[
+            "A working laptop/desktop with 4 GB RAM",
+             "A working Internet connection",
+            "Microsoft Excel installed on your machine"
+        ],
+        "DataScienceItems":[
+        " 1  Module 1 Basics of Data Analytics",
+        " 2  Module 2 Packages and Libraries",
+        " 3  Module 3 SQL",
+        " 4  Module 4 Power Bi",
+        " 5  Module 5 Advance Microsoft Excel"
+      ],
+      "PythonCourseItems":[
+        "Introduction to Data Science",
+        "Introduction to Machine Learning",
+        "Machine Learning",
+        "Conditional Statements",
+        "Data Structure",
+        "String Manipulation",
+        "Functions",
+        "Handling text files in Python",
+        "Reading Different Data Files in Python",
+        "Pandas",
+        "Numpy"
+      ],
+      "FullStackCourseItems":[
+        "1 Introduction to Full Stack Development",
+        "2 HTML & CSS Basics",
+        "3 JavaScript Fundamentals – Interactive Webpage Project",
+        "4 Advanced JavaScript (ES6+ Concepts)",
+        "5 Front-end Frameworks – React Basics",
+        "6 Styling Libraries and Responsive Design – Portfolio Project",
+        "7 Joins",
+        "8 Node.js & Express.js",
+        "9 Database Fundamentals (SQL & NoSQL)",
+        "10 Working with MongoDB – User Profile Project",
+        "11 User Authentication and Authorization"
+      ]
+        
+
+        
+
+      }
+     
+    ]
+  }

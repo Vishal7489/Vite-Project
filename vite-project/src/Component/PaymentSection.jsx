@@ -67,7 +67,7 @@ return (
     
     <div className="Form">
     <div>
-     <label className="Payment_input2">Coupon <span className="star">*</span> </label>
+     <label className="Payment_input2">Coupon <span className="star"></span> </label>
      <br/>
      <input type="text" required placeholder=""  className="PaymentDetails_Coupon" onChange={(event)=>setCoupon(event.target.value)}  />   
      </div>

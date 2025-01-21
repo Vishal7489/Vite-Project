@@ -1,0 +1,40 @@
+{
+  "AboutDetail": [
+    {
+      "imgUrl": "https://analytics-vidhya.vercel.app/images/artificialIntelligence.jpg",
+      "heading": "Harnessing AI for Tailored Educational Experience",
+      "para": "AI-based IDE with real-time engineered to teach you only what the industry demands."
+    },
+    {
+      "imgUrl": "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=interview.jpg",
+      "heading": "Ace Your Interview Preparation",
+      "para": "An updated curriculum engineered to teach you only what the industry demands."
+    },
+    {
+      "imgUrl": "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=mockQuestion.jpg",
+      "heading": "Experienced instructors and mentors",
+      "para": "Get company-specific interview preparation help, from the likes of Google, Swiggy, Microsoft."
+    },
+    {
+      "imgUrl": "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=placement.jpg",
+      "heading": "Access 1000+ Mock Interviews",
+      "para": "Courses taught only by people who have already aced it! 1000+ tech professionals to guide you."
+    },
+    {
+      
+        "para": "Get started on your journey towards unlocking hundreds of job opportunities with Data Science Academy",
+        "buttonText": "Sign up"
+      
+    },
+    {
+      "imgUrl": "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=interview.jpg",
+      "heading": "Lifetime Placement Assistance Guaranteed",
+      "para": "Practice your skills with unlimited number of mock interviews you can schedule yourself."
+    },
+    {
+      "imgUrl": "https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=curriculum.jpg",
+      "heading": "Industry-oriented curriculum",
+      "para": "An updated curriculum engineered to teach you only what the industry demands."
+    }
+  ]
+}

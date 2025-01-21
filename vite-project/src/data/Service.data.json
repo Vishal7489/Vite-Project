@@ -1,0 +1,39 @@
+{
+"ServiceDetail":[
+  {
+     "imgUrl":"https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=data_analytics.jpg",
+     "name":"Data Analytics",
+     "para":"Unlock the power of data with our comprehensive Data Analytics designed to equip you with essential skills for extracting insights and making informed decisions.",
+     "headings": [
+      "Python",
+      "Pandas",
+      "Data Visualization"
+   ],
+     "link":"/DataScience"
+  },
+  {
+"imgUrl":"https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=Python.jpg",
+     "name":"Python for Data Science",
+     "para":"Unlock the power of data with our comprehensive Data Analytics designed to equip you with essential skills for extracting insights and making informed decisions.",
+     "headings": [
+      "Python",
+      "Pandas",
+      "Data Visualization"
+   ],
+     "link":"/PythonCourse"
+     
+
+  } ,
+  {
+    "imgUrl":"https://analytics-vidhya.vercel.app/images/SQL.jpg",
+     "name":"FullStack Developer",
+     "para":"Unlock the power of data with our comprehensive Data Analytics designed to equip you with essential skills for extracting insights and making informed decisions.",
+     "headings": [
+      "Python",
+      "Pandas",
+      "Data Visualization"
+   ],
+     "link":"/FullStackCourse"
+  }
+]
+}

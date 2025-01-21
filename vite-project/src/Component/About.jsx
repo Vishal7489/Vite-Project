@@ -3,57 +3,30 @@ import "../Styles/About.css"
 
 
 
+
 const About = ({Data}) => {
-
-
-  let section=[];
-  for (let i = 0; i <=3; i++) {
-    section.push(
-    <div className="AboutMain">
-    <div className="AboutHeading">
-    <img src={Data.AboutImg[i]} alt="random-image" className="About-image" />
-    <h3 className="About7">{Data.AboutHeading[i]}</h3>
-    <h5 className="About_para">{Data.AboutPara[i]}</h5>
-    </div>
-    </div>
-    )
-  }
-
-
-  let Learning=[];
-  for (let i = 0; i <=1; i++) {
-    Learning.push(
-    <div className="AboutMainLearning">
-    <div className="AboutHeading1" >
-    <img src={Data.AboutImg[i]} alt="random-image" className="About-image" />
-    <h3 className="About7">{Data.AboutHeading[i]}</h3>
-    <h5 className="About_para">{Data.AboutPara[i]}</h5>
-    </div>
-    </div>
-    )
-  }
-
-  return (
-<>
+return(
 <div className="About">
-<div>
-<p  className="AboutLearning">Learning engineered to fit the
+<p className="AboutMainPara">Learning engineered to fit the<br/>
 exact needs of the industry</p>
+<div className="AboutMainCard">
+{Data.map((item,index)=>(
+<div key={index} className={`AboutCard ${index === 4 ? 'FifthCard' : ''}`}  >
+{item.imgUrl && index !== 4 && (
+<img src={item.imgUrl} alt="random-image" className="AboutImage"/>
+)}
+<h2 className="AboutHeading">{item.heading}</h2>
+<p className={`AboutPara ${index===4?'FifthPara': ''}`}>{item.para}</p>
+{index === 4 && (
+<button className="AboutButton">Sign Up</button>
+  )}
 </div>
-<div className="AboutFlex1">
-{section}
-</div>
-<div className="AboutJourney"  >
-<div>
-<p className="AboutPara">Get started on your journey towards unlocking hundreds of
-job opportunities with Data Science Acedmy</p>
-<button  className="sign_in">Sign Up</button>
-</div>
-<div  className="AboutFlex1">{Learning}</div>
-</div>
-</div>
-</>
-  )
+ ))}
+ </div>
+ </div>
+)
+
+  
 }
  
 export default About
