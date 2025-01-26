@@ -23,9 +23,9 @@ function App() {
     <div>
     <Routes  className="scrollable-content"   >
     <Route path="/" element={<Home/>}/>
-    <Route path="/DataScience" element={<DataScience  Data={data.aboutPython}/>} />
-    <Route path="/PythonCourse" element={<PythonCourse Data={data.aboutPython}   />} />
-    <Route path="/FullStackCourse" element={<FullStackCourse Data={data.aboutPython} />} />
+    <Route path="/DataScience/:id" element={<DataScience  Data={data.aboutPython}/>} />
+    <Route path="/PythonCourse/:id" element={<PythonCourse Data={data.aboutPython} />} />
+    <Route path="/FullStackCourse/:id" element={<FullStackCourse Data={data.aboutPython} />} />
     <Route path="/PaymentSection" element={<PaymentSection Data={data.aboutPython} />} />
     <Route path="/LoginSection" element={<LoginSection />} />
     <Route path="/SignIn"  element={<SignIn/>} />

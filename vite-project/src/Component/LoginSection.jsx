@@ -1,64 +1,62 @@
-import React, { useState } from "react";
-import "../Styles/LoginSection.css";
-
-const Popup = ({onClose }) => {
-  return (
-    <div className="popup-overlay">
-      <div className="popup-content success">
-        <div className="popup-header">
-          <div className="success-icon">&#10004;</div>
-        </div>
-        <h2>Success!</h2>
-        <p>Your login was successful! Welcome back.</p>
-        <button className="popup-button success" onClick={onClose}>
-          OKAY
-        </button>
-      </div>
-    </div>
-  );
-};
+import React from 'react'
+import "../Styles/LoginSection.css"
+import img2 from "../assests/image2.jpg"
+import { FaRegCheckSquare } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+import { SiApple } from "react-icons/si";
 
 const LoginSection = () => {
-  const [showPopup, setShowPopup] = useState(false);
- 
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-    setShowPopup(true);
-  };
-
   return (
-    <div className="LoginMain">
-      <form  onSubmit={handleLogin}>
-        <div className="Login">
-        <img src="https://static.vecteezy.com/system/resources/previews/002/173/392/original/student-studying-at-home-free-vector.jpg   "  alt="random-image" className="LoginImage"/>
-        </div>
-        <div className="LoginCard">
-        <h2 className="LoginHeading">Login</h2> 
-        <div>
-        <label className="LoginUser">UserName<span className="Loginstar">*</span>   </label>
-        <input type="text" placeholder="Enter your name"  className="LoginInput"/>
-        </div>
-        <div>
-        <label className="LoginPassword">Password<span className="Loginstar">*</span>   </label>
-        <input type="text" placeholder="Enter your password" className="LoginInput1"/>
-        </div>
-        <div>
-        <label className="ForgotPassword">Forgot Password</label>
-        </div>
-        <div>
-          <button className="LoginButton">Login</button>
-        </div>
-        </div>
-      </form>
-
-      {showPopup && (
-        <Popup 
-          onClose={() => setShowPopup(false)} 
-        />
-      )}
+    <div className="LoginSection">
+    <div className="LoginCard">
+    <div className="Login">
+    <img src={img2} alt="random-image" className="LoginImage"/>
+    <form>
+    <h5 className="LoginAccount">Create an account</h5>
+    <h5 className="LoginPara">Already have an account? <span className="Log">Log in</span></h5>
+    <div>
+    <input type="text" placeholder="First name" className="LoginFirstName"  />
+    <input type="text" placeholder="Last name"  className="LoginLastName"   />
     </div>
-  );
-};
+    <div>
+    <input type="text" placeholder="Email" className="LoginEmail"/>
+    </div>
+    <div>
+    <input type="text" placeholder="Enter your password" className="LoginPassword"/> 
+    </div>
+   <div>
+   <div>
+   <FaRegCheckSquare  className="LoginIcons"/>
+   </div>
+   <div>
+   <h6 className="LoginCondition">I agree to the <span className="LoginTerm">Term&condition</span></h6>
+   </div>
+   <div>
+  <button className="LoginButton">Create account</button>
+   </div>
+   <div>
+   <span><h4 className="Register"></h4> <h5 className="LoginRegister">Or register with</h5> <h4 className="Register1"></h4> </span>
+   </div>
+   <div>
 
-export default LoginSection;
+  </div>
+  <div className="Login_Icons">
+  <div className="LoginMainIcon">
+  <FcGoogle  className="GoogleIcon" />
+  <h5 className="GoogleHeading">Google</h5>
+  </div>
+  <div  className="LoginMainIcon1">  
+  <SiApple  className="GoogleIcon"/>
+  <h5 className="GoogleHeading">Apple</h5>
+  </div>
+  </div>
+   </div>
+
+    </form>
+    </div>
+    </div>
+    </div>
+  )
+}
+
+export default LoginSection

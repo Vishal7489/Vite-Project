@@ -9,7 +9,7 @@
       "Pandas",
       "Data Visualization"
    ],
-     "link":"/DataScience"
+     "link":"/DataScience/1"
   },
   {
 "imgUrl":"https://campupload.tingtingu.com/getAdv?type=chatMessage_image&key=Python.jpg",
@@ -20,7 +20,7 @@
       "Pandas",
       "Data Visualization"
    ],
-     "link":"/PythonCourse"
+     "link":"/PythonCourse/2"
      
 
   } ,
@@ -33,7 +33,7 @@
       "Pandas",
       "Data Visualization"
    ],
-     "link":"/FullStackCourse"
+     "link":"/FullStackCourse/3"
   }
 ]
 }

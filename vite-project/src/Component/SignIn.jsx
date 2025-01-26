@@ -1,73 +1,42 @@
-import React,{useState} from 'react'
+import React from 'react'
 import "../Styles/SignIn.css"
-
+import { IoLogoGoogle } from "react-icons/io5";
+import { RiAppleLine } from "react-icons/ri";
+import img3 from "../assests/image3.jpg"
 
 const SignIn = () => {
-
-  const Popup = ({ type, message, onClose }) => {
-    return (
-      <div className="popup-overlay">
-        <div className={`popup-content ${type}`}>
-          <button className="close-button" onClick={onClose}>&#10004;</button>
-          <h2>Success</h2>
-          <p>Your SignUp was successful! Welcome back.</p>
-          <button className="popup-button success" onClick={onClose}>
-          OKAY
-        </button>
-        </div>
-      </div>
-    );
-  };
-  
-
-
-const [name,setName]=useState();
-const [email,setEmail]=useState();
-const [password,setPassword]=useState();
-const [confirmPass,setconfirmPass]=useState();
-const [showPopup,setshowPopup]=useState(false);
-
-
-const handleSubmit =(event)=>{
-event.preventDefault();
-setshowPopup(true);
-}
-
-return (
-<div className="SignIn">
-
-
-<form onSubmit={handleSubmit}>
-<div>
-<img src="https://th.bing.com/th/id/OIP.N0QJ8hN-UBQOA3TCnOYg2QHaDt?rs=1&pid=ImgDetMain" alt="random-image" className="AccountImage"/>
-</div>
-<div className="FormSubmit">
-<div>
- <h3 className="AccountHeading">Create an account</h3>
- <p className="SignPara">Let's get started your 30 days free trail</p>
-</div>
-<div>
-<label className="name">Name<span className="Loginstar">*</span></label>
-<input type="text" placeholder="Enter your name" className="InputField"/>
-</div>
-<div>
-<label className="email">Email<span className="Loginstar">*</span></label>
-<input type="text" placeholder="Enter your Email" className="InputField1"/>
-</div>
-<div>
-<label className="password">Password<span className="Loginstar">*</span></label>
-<input type="text" placeholder="Enter your Password" className="InputField2"/>
-</div>
-<div>
-<button  className="ButtonSignIn1">Create Account</button>
-</div>
-<button  className="ButtonSignIn">Sign In</button>
-</div>
-</form>
-{
-  showPopup&&<Popup type="success"  message="Login Successful!" onClose={() => setshowPopup(false)} />
-}
-</div>
+  return (
+  <div className="SignIN">
+  <div className="SignInCard"  >
+  <div>
+    <img src={img3} alt="random-image" className="ImageSignIn"/>
+    </div>
+  <form className="SignInForm">
+  <h1 className="SignInHeading">Sign up account</h1>
+  <h6 className="SignInPara">Enter your personal data to create your account</h6>
+  <div>
+  <IoLogoGoogle className="SignInIcon" />
+  <RiAppleLine className="AppleIcon"/>
+  </div>
+  <div>
+  <span><h4 className="SignLine"></h4> <h5 className="SignInRegister">or</h5> <h4 className="SignLine1"></h4> </span>
+  </div>
+  <div>
+  <input type="text" placeholder="Username" className="SignInName"  />
+   </div>
+   <div>
+   <input type="text" placeholder="Email address" className="SignInAddress"/>
+   </div>
+   <div>
+    <input type="text" placeholder="Enter your password" className="SignInPassword"/>
+   </div>
+   <div>
+    <button className="SignInButton">Sign Up</button>
+    </div>
+    <div className="AccountPara">Already have an account<button className="AccountButton">Log in</button></div>
+    </form>
+    </div>
+    </div>
   )
 }
 
